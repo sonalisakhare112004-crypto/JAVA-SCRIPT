@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>java script</title>
-
+  <title>Simple JS</title>
 </head>
 <body>
-    <h1 id="onemsg"></h1>
 
+<h1 id="text">Hello World</h1>
 
+<button onclick="changeText()">Click Me</button>
 
+<script>
+function changeText() {
+  document.getElementById("text").innerText = "Button Clicked!";
+}
+</script>
 
-
-    <script>
-
-
-    </script>
-    
 </body>
 </html>
